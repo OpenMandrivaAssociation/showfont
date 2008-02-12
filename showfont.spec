@@ -6,6 +6,8 @@ Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License: MIT
+BuildRoot: %{_tmppath}/%{name}-root
+
 BuildRequires: libfs-devel >= 1.0.0
 BuildRequires: x11-util-macros >= 1.0.1
 
