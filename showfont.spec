@@ -1,6 +1,6 @@
 Name: showfont
 Version: 1.0.2
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: Font dumper for X font server
 Group: Development/X11
 URL: http://xorg.freedesktop.org
