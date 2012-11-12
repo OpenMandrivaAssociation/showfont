@@ -1,0 +1,26 @@
+From b34707a2cf11fe97a5e8c2e8bdd7264497d7a50e Mon Sep 17 00:00:00 2001
+From: Paulo Cesar Pereira de Andrade <pcpa@mandriva.com.br>
+Date: Wed, 16 Jan 2008 18:56:23 -0200
+Subject: [PATCH]   Update to match mandriva default fontserver configuration value for
+ -server option.
+
+---
+ showfont.c |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+diff --git a/showfont.c b/showfont.c
+index b1d1ff7..020dc8f 100644
+--- a/showfont.c
++++ b/showfont.c
+@@ -351,7 +351,7 @@ usage(void)
+ int
+ main(int argc, char **argv)
+ {
+-    char *servername = "localhost:7100"; /* -server: font server name */
++    char *servername = "unix/:-1"; /* -server: font server name */
+     char *fontname = NULL; /* -fn: font name */
+     int         i;
+     Font        fid,
+-- 
+1.5.3.5
+
