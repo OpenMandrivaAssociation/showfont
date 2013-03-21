@@ -6,6 +6,7 @@ Group: Development/X11
 URL: http://xorg.freedesktop.org
 Source0: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License: MIT
+Patch0:	showfont-aarch64.patch
 
 BuildRequires: libfs-devel >= 1.0.0
 BuildRequires: x11-util-macros >= 1.0.1
@@ -19,7 +20,7 @@ metrics, and character bitmaps.
 
 %prep
 %setup -q -n %{name}-%{version}
-
+%patch0 -p1
 %patch1 -p1
 
 %build
