@@ -1,13 +1,12 @@
-diff --git a/showfont.c b/showfont.c
-index 4ba01a6..452b668 100644
---- a/showfont.c
-+++ b/showfont.c
-@@ -356,7 +356,7 @@ usage(void)
+diff -Naur showfont-1.0.6/showfont.c showfont-1.0.6.tpg/showfont.c
+--- showfont-1.0.6/showfont.c	2022-08-31 00:30:38.000000000 +0000
++++ showfont-1.0.6.tpg/showfont.c	2022-08-31 08:01:42.496248674 +0000
+@@ -357,7 +357,7 @@
  int
  main(int argc, char **argv)
  {
 -    const char *servername = "localhost:7100"; /* -server: font server name */
 +    const char *servername = "unix/:-1"; /* -server: font server name */
      char *fontname = NULL; /* -fn: font name */
-     int         i;
      Font        fid,
+                 dummy;
