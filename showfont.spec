@@ -1,7 +1,7 @@
 Summary:	Font dumper for X font server
 Name:		showfont
 Version:	1.0.6
-Release:	1
+Release:	2
 Group:		Development/X11
 URL:		http://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
