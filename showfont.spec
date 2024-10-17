@@ -3,7 +3,7 @@ Name:		showfont
 Version:	1.0.6
 Release:	2
 Group:		Development/X11
-URL:		http://xorg.freedesktop.org
+URL:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
 Patch1:		0001-Update-to-match-mandriva-default-fontserver-config.patch
