@@ -7,6 +7,11 @@ URL:		https://xorg.freedesktop.org
 Source0:	http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 License:	MIT
 Patch1:		0001-Update-to-match-mandriva-default-fontserver-config.patch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libfs)
 BuildRequires:	pkgconfig(xorg-macros)
 
